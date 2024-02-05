@@ -16,8 +16,16 @@
     BODY
 -------------------*/
 
+body {
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
 .blue {
-    background-color: #3535EC;
+    /* background-color: #3535EC; */
+    background-image: url(./img/jumbo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /*-------------------
@@ -30,7 +38,7 @@
 -------------------*/
 
 header {
-    background-color: #ADD8E6;
+    background-color: #255EE9;
     max-width: 100%;
     padding: 10px;
     display: flex;
@@ -41,28 +49,28 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: orange;
-    max-width: 1000px;
+    /* background-color: orange; */
     height: 40px;
+    color: white;
 }
 
 .img-logo {
-    padding-right: 195px;
+    padding-right: 150px;
     padding-left: 5px;
     display: flex;
     align-items: center;
     height: 100%;
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
 }
 
 .link {
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
     display: flex;
     align-items: center;
     height: 100%;
-    border-top: 1px dashed black;
-    border-bottom: 1px dashed black;
+    /* border-top: 1px dashed black;
+    border-bottom: 1px dashed black; */
 }
 
 ul {
@@ -72,17 +80,31 @@ ul {
     
 }
 
-li {
-    text-decoration: none; 
+li,a {
+    color: white;
+    text-decoration: none;
+    padding: 0 6px;
+    margin: 0 3px;
 }
 
 .btn-login {
-    padding-right: 5px;
-    padding-left: 195px;
+    /* padding-right: 5px; */
+    padding-left: 140px;
     display: flex;
     align-items: center;
     height: 100%;
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
+}
+
+.btn-accedi {
+    background: white;
+    padding: 6px 12px;
+    border-radius: 50px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: 'Cabin', sans-serif;
+    text-decoration: none;
 }
 
 /*-------------------
